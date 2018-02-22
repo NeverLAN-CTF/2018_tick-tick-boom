@@ -1,4 +1,4 @@
-# 2018_tick-tick-boom
+# tick-tick-boom
 
 ## Description:
 This challenges requires the player to acquire the username and password  

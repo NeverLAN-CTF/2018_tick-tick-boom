@@ -1,9 +1,10 @@
 <?php
-    error_reporting(E_ALL);
-    ini_set('error_reporting', E_ALL);
-    // include_once('arrays.php');
-    setcookie('username');
-    setcookie('password');
+
+    if(!array_key_exists('username', $_COOKIE)){
+        setcookie('username', 'username');
+        setcookie('password', 'password');
+    }
+    
     echo 'Current time: '.date('H:i:s').'<br />';
     echo 'Rumor has it, this thing goes boom at 23:59 purvesta\'s time.<br />';
 
@@ -23,7 +24,7 @@
         <meta type='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
     </head>
-    
+
     <body>
         <p style="height: 90%;"></p>
     </body>

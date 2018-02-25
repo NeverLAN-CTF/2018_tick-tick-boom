@@ -1,5 +1,5 @@
 <?php
-
+    date_default_timezone_set('UTC');
     if(!array_key_exists('username', $_COOKIE)){
         setcookie('username', 'username');
         setcookie('password', 'password');

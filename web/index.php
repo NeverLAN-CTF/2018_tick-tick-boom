@@ -24,9 +24,9 @@
             elseif( date('H:i') != '06:59' && $_COOKIE['username'] == 'admin' && $_COOKIE['password'] == 'hahahaN0one1s3verGett1ngTh1sp@ssw0rd' ){
                 echo '<span hidden>Close, but your timing is off purvesta...</span>';
             }
-        }
-        else{
-            echo '<span hidden>username and password did not match: admin hahahaN0one1s3verGett1ngTh1sp@ssw0rd</span>';
+            else{
+                echo '<span hidden>username and password did not match: admin hahahaN0one1s3verGett1ngTh1sp@ssw0rd</span>';
+            }
         }
     ?>
     </body>
